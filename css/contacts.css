@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Univa Nova';
+    src: url('/Web_Fonts/UnivaNova-Light.eot');
+    src: url('/Web_Fonts/UnivaNova-Light.eot?#iefix') format('embedded-opentype'),
+    url('/Web_Fonts/UnivaNova-Light.woff2') format('woff2'),
+    url('/Web_Fonts/UnivaNova-Light.woff') format('woff'),
+    url('/Web_Fonts/UnivaNova-Light.svg#UnivaNova-Light') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Univa Nova Hairline';
+    src: url('/Web_Fonts/UnivaNova-Hairline.eot');
+    src: url('/Web_Fonts/UnivaNova-Hairline.eot?#iefix') format('embedded-opentype'),
+    url('/Web_Fonts/UnivaNova-Hairline.woff2') format('woff2'),
+    url('/Web_Fonts/UnivaNova-Hairline.woff') format('woff'),
+    url('/Web_Fonts/UnivaNova-Hairline.svg#UnivaNova-Hairline') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+*
+.btn {
+    font-family: "Univa Nova";
+    display: block; /* Строчно-блочный элемент */
+    background: rgba(5, 12, 30, 0.38);
+    color: white; /* Белый цвет текста */
+    margin: 5%;
+    padding: 1%; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    /*border-radius: 3px; !* Скругляем уголки *!*/
+}
+body{
+    font-family: "Univa Nova";
+    color: rgba(0, 0, 0, 0.74);
+    margin: 0 auto;
+}
+.container{
+    margin: 0 auto;
+}
+.servhead{
+    text-align: center;
+    font-size: xx-large;
+    /*margin-top: 2%;*/
+    color: rgba(5, 12, 30, 0.76);
+}
+.services{
+    text-align: center;
+    border-style: ridge;
+    border-radius: 100%;
+    padding: 5%;
+    margin: 5%;
+}
+h3{
+    font-size: xx-large;
+    font-family: "Univa Nova Hairline";
+}
+h2{
+    color: rgba(5, 12, 30, 0.38);
+    text-align: center;
+    font-family: "Univa Nova Hairline";
+}
+h1{
+    font-size: larger;
+    font-family: "Univa Nova Hairline";
+}
+.main{
+    margin: 3%;
+    margin-top: 2%;
+    /* border-style: double;*/
+    background-color: white;
+}
+.service{
+    display: inline-block;
+    width: 80%;
+    margin: 5%;
+    margin-top: 0;
+    padding: 1%;
+    font-size: x-large;
+   /* vertical-align: top;*/
+    text-align: center;
+    border-style: double;
+    color: #3d3d3d;
+}
+@media only screen and (max-width: 900px) {
+    .services{
+        border-style: ridge;
+        border-radius: 90%;
+        padding: 5%;
+        margin: 1%;
+        text-align: center;
+    }
+    .service{
+        display: block;
+        width: 96%;
+        margin: 1%;
+        padding: 1%;
+        font-size: x-large;
+        vertical-align: top;
+        text-align: center;
+        border-style: double;
+        color: #3d3d3d;
+    }
+    h3{
+        margin-top: 5%;
+        font-size: xx-large;
+        font-family: "Univa Nova Hairline";
+    }
+    h2{
+        color: rgba(5, 12, 30, 0.38);
+        text-align: center;
+        font-family: "Univa Nova Hairline";
+    }
+    h1{
+        margin-top: 5%;
+        font-size: larger;
+        font-family: "Univa Nova Hairline";
+        color: rgba(0, 0, 0, 1);
+    }
+}
